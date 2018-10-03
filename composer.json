@@ -1,0 +1,16 @@
+{
+    "name": "alfacashier/alfacashier-api-php",
+    "type": "library",
+    "description": "PHP Library for interacting with ALFAcashier.com API",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "ALFAcashier\\": "src/"
+      }
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    }
+}
